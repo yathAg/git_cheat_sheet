@@ -39,6 +39,12 @@ git submodule update --remote --merge
 ```
 ## Managing Branches
 
+### List all branches
+
+```bash
+git branch -r
+```
+
 ### Deleting Remote Branch
 ```bash
 git push origin --delete <branchname>
